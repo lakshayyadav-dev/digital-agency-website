@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import styles from "../styles/Services.module.css";
+import styles from "../styles/Projects.module.css";
 
 import art_1 from "../static/images/art_1.jpg";
 import art_2 from "../static/images/art_2.jpg";
@@ -9,7 +9,7 @@ import art_4 from "../static/images/art_4.jpg";
 import art_5 from "../static/images/art_5.jpg";
 import art_6 from "../static/images/art_6.jpg";
 
-const Services = () => {
+const Projects = () => {
 	return (
 		<div className={styles.container}>
 			<div className={styles.content}>
@@ -30,4 +30,4 @@ const Services = () => {
 	);
 };
 
-export default Services;
+export default Projects;
