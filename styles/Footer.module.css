@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 10rem 5rem;
+    padding-bottom: 2rem;
+    gap: 7.5rem;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contentBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.contentBlock h1 {
+    text-transform: uppercase;
+}
+
+.socialIconsContainer {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.socialIcon {
+    transition: all 0.15s ease-out;
+}
+
+.socialIcon:hover {
+    transform: scale(1.1);
+}
+
+.copyright p{
+    color: rgb(205, 205, 205);
+}   
