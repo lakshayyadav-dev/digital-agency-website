@@ -39,3 +39,25 @@
 .imageWide {
     grid-column: span 2 / auto;
 }
+
+@media screen and (width <= 980px) {
+    .container {
+        padding: 10rem 2rem;
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .images {
+        width: 100%;
+    }
+
+    .content {
+        width: 100%;
+    }
+    .content h1 {
+        font-size: 40px;
+    }
+    .content p {
+        font-size: 14px;
+    }
+}

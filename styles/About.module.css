@@ -1,17 +1,13 @@
 .container {
     display: flex;
     justify-content: space-between;
-    /* margin-top: 10rem; */
     padding: 10rem 5rem;
 }
 
 .content {
-    /* flex: 1; */
-
     display: flex;
     gap: 2rem;
     flex-direction: column;
-    /* padding-right: 5rem; */
     width: 500px;
 }
 
@@ -23,7 +19,6 @@
 
 .images {
     width: 750px;
-    /* flex: 1; */
     display: grid;
     gap: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -43,4 +38,26 @@
 
 .imageWide {
     grid-column: span 2 / auto;
+}
+
+@media screen and (width <= 980px) {
+    .container {
+        flex-direction: column;
+        padding: 2rem;
+        gap: 5rem;
+    }
+
+    .content {
+        width: 100%;
+    }
+    .content h1 {
+        font-size: 40px;
+    }
+    .content p {
+        font-size: 14px;
+    }
+
+    .images {
+        width: 100%;
+    }
 }

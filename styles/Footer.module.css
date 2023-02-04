@@ -38,3 +38,21 @@
 .copyright p{
     color: rgb(205, 205, 205);
 }   
+
+
+@media screen and (width <= 980px) {
+    .container {
+        padding: 10rem 2rem 5rem 2rem;
+    }
+
+    .content {
+        flex-direction: column;
+        gap: 5rem;
+    }
+    .content h1 {
+        font-size: 26px;
+    }
+    .content p {
+        font-size: 14px;
+    }
+}

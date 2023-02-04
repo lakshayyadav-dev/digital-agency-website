@@ -45,7 +45,7 @@
 	z-index: 20;
 }
 
-.holder ul {
+.navlinks {
 	flex: 1;
 	margin: 0 20rem;
 	display: flex;
@@ -54,11 +54,21 @@
 	align-items: center;
 }
 
-.holder li {
+.navlinks li {
 	color: #b5b5b5;
     transition: all 0.1s ease-out;
 }
 
-.holder li:hover {
+.navlinks li:hover {
 	color: white;
+}
+
+@media screen and (width <= 980px) {
+    .navlinks {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+    }
 }

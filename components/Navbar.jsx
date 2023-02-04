@@ -9,7 +9,7 @@ const Navbar = () => {
 			<div className={styles.holder}>
 				<h1>DA</h1>
 
-				<ul>
+				<ul className={styles.navlinks}>
 					<li><a href="#">About us</a></li>
 					<li><a href="#">Advantages</a></li>
 					<li><a href="#">Our services</a></li>
@@ -19,6 +19,11 @@ const Navbar = () => {
 
 				<a href="" className="btn">Sign in</a>
 			</div>
+
+            <div className={styles.burger}>
+                <div />
+                <div />
+            </div>
 		</nav>
 	);
 };

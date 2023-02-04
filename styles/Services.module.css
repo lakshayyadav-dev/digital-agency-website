@@ -22,3 +22,26 @@
     gap: 1rem;
     grid-template-columns: repeat(2, 1fr);
 }
+
+@media screen and (width <= 980px) {
+    .container {
+        padding: 10rem 2rem;
+        flex-direction: column-reverse;
+        gap: 3rem;
+    }
+
+    .content {
+        width: 100%;
+    }
+    .content h1 {
+        font-size: 40px;
+    }
+    .content p {
+        font-size: 14px;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+    }
+}

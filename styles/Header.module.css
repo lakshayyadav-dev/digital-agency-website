@@ -5,8 +5,6 @@
 
     height: 90vh;
     padding: 0 5rem;
-    /* margin: auto; */
-    /* margin-top: 10rem; */
 }
 
 .heading {
@@ -40,4 +38,23 @@
     display: flex;
     flex-direction: row;
     gap: 1rem;
+}
+
+@media screen and (width <= 980px) {
+    .container {
+        flex-direction: column;
+        padding: 2rem;
+    }
+
+    .heading {
+        width: 100%;
+    }
+    .heading h1 {
+        font-size: 64px;
+        line-height: 72px;
+    }
+
+    .contentContainer {
+        width: 100%;
+    }
 }
